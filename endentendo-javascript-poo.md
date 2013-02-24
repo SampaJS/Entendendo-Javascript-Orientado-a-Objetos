@@ -4,12 +4,14 @@
 
 Postado em 9 de Outubro de 2011 
 
+// revisar este trecho, não ficou oeso //
 JavaScript é uma linguagem orientada a objetos (POO), with its roots in the Self
 programming language, embora é (tristemente) projetado para parecer com Java.
-Isto torna a lingagem realmente poderosa e sweet features stay covered by some
-pretty ugly and counter-intuitive work-arounds.
+Isto torna a lingagem realmente poderosa e doces carecterísticas ficam cobertas
+por alguns mesmo muito feios e soluções alternativas contra-intuitivo.
 
-One such affected feature is the implementation of prototypical inheritance. The concepts are simple yet flexible and powerful. It makes inheritance and behaviourism first-class citizens, just like functions are first-class in functional-ish languages (JavaScript included).
+Um tal recucurso afetado é a implementação de herança prototípica. Os conceitos
+são simples mas flexíveis e poderosos. It makes inheritance and behaviourism first-class citizens, just like functions are first-class in functional-ish languages (JavaScript included).
 
 Fortunately, ECMAScript 5 has gotten plenty of things to move the language in the right way, and it's on those sweet features that this article will expand. I'll also cover the drawbacks of JavaScript's design, and do a little comparison with the classical model here and there, where those would highlight the advantages or disadvantages of the language's implementation of prototypical OO.
 
