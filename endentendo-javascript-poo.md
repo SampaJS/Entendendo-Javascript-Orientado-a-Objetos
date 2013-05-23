@@ -1,4 +1,9 @@
-# Entendendo JavaScript POO
+Entendendo-Javascript-Orientado-a-Objetos
+=========================================
+
+Tradução  
+
+Texto original http://killdream.github.com/blog/2011/10/understanding-javascript-oop/  
 
 ## prototipoco herança em grandiosidade!!
 
