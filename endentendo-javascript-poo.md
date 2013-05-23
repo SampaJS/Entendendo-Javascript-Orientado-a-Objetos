@@ -4,26 +4,33 @@
 
 Postado em 9 de Outubro de 2011 
 
-// revisar este trecho, não ficou oeso //
-JavaScript é uma linguagem orientada a objetos (POO), with its roots in the Self
-programming language, embora é (tristemente) projetado para parecer com Java.
-Isto torna a lingagem realmente poderosa e doces carecterísticas ficam cobertas
-por alguns mesmo muito feios e soluções alternativas contra-intuitivo.
+JavaScript é uma linguagem orientada a objetos (OO), com suas raizes na auto 
+linguagem de programação, embora seja (tristemente) projetado para parecer com Java.
+Isto torna a lingagem realmente poderosa e amáveis carecterísticas ficam cobertas
+por algumas muito feias e contra-intuitivas soluções alternativas.
 
-Um tal recucurso afetado é a implementação de herança prototípica. Os conceitos
-são simples mas flexíveis e poderosos. It makes inheritance and behaviourism first-class citizens, just like functions are first-class in functional-ish languages (JavaScript included).
+Uma característica tão afetada é a implementação de herança prototípica. Os conceitos 
+são simples contudo, flexíveis e eficazes. Fas herança e comportamento cidões de 
+primeira classe, assim como funções são de primeira class em linguagems funcional-ish
+(incluíndo javascript)
 
-Fortunately, ECMAScript 5 has gotten plenty of things to move the language in the right way, and it's on those sweet features that this article will expand. I'll also cover the drawbacks of JavaScript's design, and do a little comparison with the classical model here and there, where those would highlight the advantages or disadvantages of the language's implementation of prototypical OO.
+Felizmente, ECMAScript 5 tem obtido muita coisa para mover a linguagem para o 
+caminho certo, e é sobre estas amáveis características que este artigo irá se 
+desenvolver. Irei cobrir também as desvantagens do JavaScript, e farei um pequeno 
+comparativo com o modelo classico, aqui e ali, onde queria destacas as vantagens e 
+desvantagens da implementação da linguagem prototípico OO.
 
-It's important to note, though, that this article assumes you have knowledge over other basic JavaScript functionality, like functions (including the concepts of closures and first-class functions), primitive values, operators and such.
+É importante notar, que este artigo presupôe que você tenha um básico conhecimento 
+da funcionanidade do JavaScript, como funções (incluindo conceitos de cosures e 
+funções de primeira classe), valores primitivos, operadores e tal.
 
-## Table of Contents
+## Índice
 
-1.  Objetos  
-1.1. O que são objetos?  
-1.2. Criando propriedades  
-1.3. Descritores  
-1.4. Abandonar a verbosidade  
+1.  [Objetos](#1-objects)  
+1.1. [O que são objetos?](#11-what-are-objects)  
+1.2. [Criando propriedades](#12-creating-properties)  
+1.3. [Descritores](#13-descriptors)  
+1.4. [Abandonar a verbosidade](#14-ditching-the-verbosity)  
 1.5. Acessando propriedades  
 1.6. Removendo propriedades  
 1.7. Getters and setters  
