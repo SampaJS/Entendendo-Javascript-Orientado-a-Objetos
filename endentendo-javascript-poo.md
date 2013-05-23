@@ -19,42 +19,42 @@ It's important to note, though, that this article assumes you have knowledge ove
 
 ## Table of Contents
 
-1.  Objects  
-1.1. What are objects?  
-1.2. Creating properties  
-1.3. Descriptors  
-1.4. Ditching the verbosity  
-1.5. Accessing properties  
-1.6. Removing properties  
+1.  Objetos  
+1.1. O que são objetos?  
+1.2. Criando propriedades  
+1.3. Descritores  
+1.4. Abandonar a verbosidade  
+1.5. Acessando propriedades  
+1.6. Removendo propriedades  
 1.7. Getters and setters  
-1.8. Listing properties  
-1.9. Object literals  
-2. Methods  
-2.1. Dynamic this  
-2.2. How this is resolved  
-2.2.1. Called as a method  
-2.2.2. Called directly  
-2.2.3. Explicitly applied  
-2.3. Bound methods  
-3. Inheritance 
-3.1. Prototypes   
-3.2. How [⁣[Prototype]⁣] works  
-3.3. Overriding properties  
+1.8. Listanto propriedades  
+1.9. Objetos leterais  
+2. Métodos  
+2.1. Dinamico this  
+2.2. Como o this é resolvido  
+2.2.1. Chamado como um método  
+2.2.2. Chamado diretamente  
+2.2.3. Explicitamente aplicado  
+2.3. Métodos vinculados  
+3. Herança 
+3.1. Protótipos   
+3.2. Como [[Protótipos]] funcionam  
+3.3. Sobre-escrevendo propriedades  
 3.4. Mixins  
-3.5. Accessing overwritten properties  
-4. Constructors  
-4.1. The new magic  
-4.2. Inheritance with constructors  
-5. Considerations and compatibility  
-5.1. Creating objects  
-5.2. Defining properties  
-5.3. Listing properties  
-5.4. Bound methods  
-5.5. Getting the [⁣[Prototype]⁣]  
-5.6. Libraries that provide fallbacks    
-6. Wrapping it up  
-7. Things worth reading up next  
-8. Acknowledgements  
+3.5. Acessando propriedades sobrescritas  
+4. Construtores  
+4.1. A nova magia  
+4.2. Herança com construtores  
+5. Considerações e compatibilidade  
+5.1. Criando objetos  
+5.2. Definindo propiedades  
+5.3. Listando propiedades  
+5.4. Métodos vinculados  
+5.5. Obtendo o [[protótipo]]
+5.6. Bibliotecas que fornecem fallbacks    
+6. Juntando tudo  
+7. Coisas que vem a pena ler no próximo  
+8. Agradecimentos  
 
 ### 1. Objects  
 
